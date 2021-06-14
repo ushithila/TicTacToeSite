@@ -7,7 +7,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #E2D7A1;
+  background-color: #E7DCAE;
 }
 
 li {
@@ -17,14 +17,15 @@ li {
 li a {
   display: block;
   color: black;
-  text-align: center;
   font-family: Lucida Bright;
+  text-align: center;
   padding: 14px 16px;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 li a:hover {
   background-color: #E5DAA3;
+  text-decoration: underline;
 }
 
 h1 {
@@ -35,6 +36,5 @@ h1 {
 p {
 	font-family: Rockwell;
 }
-
 
 
