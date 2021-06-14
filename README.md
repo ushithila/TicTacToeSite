@@ -1,2 +1,0 @@
-# TicTacToeSite
-Project Site
