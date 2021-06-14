@@ -2,6 +2,31 @@ html {
 	background-image:url(https://lh3.googleusercontent.com/proxy/z7dJYkkgpEXtX3pYjq9qfmgDt464uMG9ouHHIeb3nOAOcjXAFi6eVCPxFcOqKVPDQe-jGeLVZ1J4uw2D6Yy-_5_-ScgkoZMz41U07Wmoi9B1qPSUW-iCRGvw4t1eJBALcQ); 
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #E2D7A1;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  font-family: Lucida Bright;
+  padding: 14px 16px;
+  text-decoration: underline;
+}
+
+li a:hover {
+  background-color: #E5DAA3;
+}
+
 h1 {
 	font-family: Goudy Old Style ; 
 	text-decoration: underline;
