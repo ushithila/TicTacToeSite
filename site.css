@@ -6,25 +6,29 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: #E2D7A1;
-}
-
-li {
-  float: left;
+  width: 25%;
+  background-color: #E5DAA3;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
 }
 
 li a {
   display: block;
-  color: black;
-  text-align: center;
+  color: #000;
   font-family: Lucida Bright;
-  padding: 14px 16px;
-  text-decoration: underline;
+  padding: 8px 16px;
+  text-decoration: none;
 }
 
-li a:hover {
+li a.active {
+  background-color: #E2D7A1;
+  color: white;
+}
+
+li a:hover:not(.active) {
   background-color: #E5DAA3;
+  color: white;
 }
 
 h1 {
@@ -34,5 +38,9 @@ h1 {
 
 p {
 	font-family: Rockwell;
+}
+
+img {
+  float:leftwards;
 }
 
