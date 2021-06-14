@@ -2,33 +2,29 @@ html {
 	background-color: #E7DCAE;
 }
 
-l {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 25%;
-  background-color: #E5DAA3;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
+  overflow: hidden;
+  background-color: #E2D7A1;
+}
+
+li {
+  float: left;
 }
 
 li a {
   display: block;
-  color: #000;
+  color: black;
+  text-align: center;
   font-family: Lucida Bright;
-  padding: 8px 16px;
-  text-decoration: none;
+  padding: 14px 16px;
+  text-decoration: underline;
 }
 
-li a.active {
-  background-color: #E2D7A1;
-  color: white;
-}
-
-li a:hover:not(.active) {
+li a:hover {
   background-color: #E5DAA3;
-  color: white;
 }
 
 h1 {
@@ -39,4 +35,6 @@ h1 {
 p {
 	font-family: Rockwell;
 }
+
+
 
